@@ -2,23 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.microsoft.exchange</groupId>
+	<groupId>org.exoplatform.thirdparty.microsoft.exchange</groupId>
 	<artifactId>exchange-ws-api</artifactId>
-	<version>1.2-PATCHED</version>
+	<version>1.2-PATCHED-01</version>
 	<packaging>jar</packaging>
-	<name>eXo Platform - addons - Exchange extension - services</name>
-	<description>eXo Platform - addons - Exchange extension - services</description>
+	<name>MICROSOFT EXCHANGE WEB SERVICES API FOR JAVA 1.2</name>
+  <scm>
+    <connection>scm:git:git://github.com/boubaker/EWSJavaAPI_1.2.git</connection>
+    <developerConnection>scm:git:git@github.com:boubaker/EWSJavaAPI_1.2.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>MICROSOFT SOFTWARE LICENSE TERMS</name>
+      <url>http://archive.msdn.microsoft.com/ewsjavaapi/Project/License.aspx</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 	<dependencies>
-		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>1.4</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.1.1</version>
-		</dependency>
 		<dependency>
 			<groupId>commons-httpclient</groupId>
 			<artifactId>commons-httpclient</artifactId>
